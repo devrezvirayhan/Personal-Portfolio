@@ -9,18 +9,18 @@ const Contact = () => {
                         <h2 className="p-2">Plase Fill Out This Form to Contact Us</h2>
                         <div className="row bg-dark p-3">
                             <div className="col-lg-7 col-md-6 col-sm-12">
-                                <form>
-                                    <div class="form-group text-left">
-                                        <label for="exampleInputEmail1"><h6 className="">Email address</h6></label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="Email" placeholder="Enter email" />
+                                <form action="https://formsubmit.co/rezvirayhan2002@gmail.com" method="POST">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1 text-left"><h6 className="text-left">Email address</h6></label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
                                     </div>
-                                    <div class="form-group text-left">
-                                        <label for="exampleInputEmail1"><h6 className="">Your Name</h6></label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" value="Name" placeholder="Your Name" />
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1 text-left"><h6 className="text-left">Name</h6></label>
+                                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name" />
                                     </div>
-                                    <div class="form-group text-left">
-                                        <label for="exampleFormControlTextarea1">Your Massage</label>
-                                        <textarea class="form-control" id="exampleFormControlTextarea1" value="Massage" rows="4"></textarea>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1"><h6 className="text-left">Massage</h6></label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
                                     <button type="submit" value="Semd" class="btn btn-primary">Send</button>
                                 </form>
