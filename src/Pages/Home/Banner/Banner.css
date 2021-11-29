@@ -3,7 +3,13 @@
     font-weight: 700;
 }
 .banner{
+    background: url("../../../Images/carousel_02.jpg"),linear-gradient(rgba(0, 0, 0, 0.836),rgba(0, 0, 0, 0.781));
+    background-size: cover;
+    position: relative;
     height: 80vh;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 .name{
     color: tomato;

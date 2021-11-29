@@ -4,8 +4,9 @@ import './Banner.css';
 const Banner = () => {
     return (
         <div>
-            <div style={{ background: 'black', color: 'white' }} className="banner">
-                <div className="col-lg-8 col-md-6 col-sm-12 text-center">
+            <div style={{color: 'white' }} className="banner">
+               <div className="row">
+                    <div className="col-lg-8 col-md-6 col-sm-12 text-center">
                     <h1 className="p-2">Web Devlpment & Website Promitions</h1>
                     <h1>I'm <span className="name">Rezvi Rayhan</span></h1>
                     <Typed
@@ -22,6 +23,8 @@ const Banner = () => {
                             </a>My Resume
                             </button>
                 </div>
+               
+               </div>
             </div>
         </div>
     );
