@@ -1,11 +1,11 @@
 import React from 'react';
-import Rezvi from '../../../Images/About-Rezvi.jpg';
 import Slide from 'react-reveal/Slide';
+import Rezvi from '../../../Images/About-Rezvi.jpg';
 const About = () => {
     return (
         <div style={{ backgroundColor: '#3f3f3f', color: 'white' }} className="p-1" id="aboutMe">
 
-            <Slide top>
+            <Slide right>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 col-md-6 col-sm-12 text-left">
