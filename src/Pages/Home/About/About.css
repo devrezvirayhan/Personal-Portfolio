@@ -1,4 +1,15 @@
-.about{
+.hire-me{
+    background-color: #f44336;
+    border: 4px solid #f44336;
+
+}
+.hire-me a{
     color: white;
-    background-color: black;
+    padding: 15px 20px ;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+}
+.hire-me:hover{
+    background: none;
 }

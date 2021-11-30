@@ -51,6 +51,7 @@ const Contact = () => {
 
             <footer style={{ backgroundColor: 'black', color: 'white' }} className=" p-3">
                 <p>Powered By Rezvi Rayhan</p>
+                
             </footer>
         </div>
     );

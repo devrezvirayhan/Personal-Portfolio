@@ -1,6 +1,7 @@
 import React from 'react';
 import Slide from 'react-reveal/Slide';
 import Rezvi from '../../../Images/About-Rezvi.jpg';
+import './About.css';
 const About = () => {
     return (
         <div style={{ backgroundColor: '#3f3f3f', color: 'white' }} className="p-1" id="aboutMe">
@@ -21,6 +22,7 @@ const About = () => {
                             <p>Fluent in <b>Emglish & Bangal</b></p>
                             <p>Car and Tech enthusiast.
                             </p>
+                            <button className="btn hire-me mb-3"><a href="https://web.facebook.com/sksagor.rayhan/">Hire Me</a></button>
                         </div>
                         <div className="col-lg-5 col-md-6 col-sm-12">
                             <img className="img-fluid img-thumbnail" src={Rezvi} alt="" />
