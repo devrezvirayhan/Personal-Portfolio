@@ -5,7 +5,7 @@ import devlopment from '../../../Images/Blog/Devlopment.jpg';
 import react from '../../../Images/Blog/React.jpg';
 const Blog = () => {
     return (
-        <div style={{ background: 'black', color: 'white' }}>
+        <div id="blog" style={{ background: 'black', color: 'white' }}>
 
             <div className="container py-5">
                 <h2 className="">My Blog</h2>
